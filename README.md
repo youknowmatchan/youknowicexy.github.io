@@ -2,5 +2,5 @@
 </p>
 <hr> 
 <p align="center">
-Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to my Quora profile. 
+Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to my website. 
 </p>
