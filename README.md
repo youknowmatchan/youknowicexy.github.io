@@ -1,6 +1,3 @@
-- 👋 Hi, I’m @youknowicexy 
-- 👀 I’m interested in programming, music, photography
-- 🌱 I’m currently learning js and trying to improve on web base programming.
+### Hey I'm icexy and this is my personal portfolio website!
 
-
-- This is my website.
+<a href>
