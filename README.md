@@ -2,5 +2,5 @@
 </p>
 <hr> 
 <p align="center">
-<a href="www.wintry.me">My Website</a>
+Click [Here](www.wintry.me)
 </p>
