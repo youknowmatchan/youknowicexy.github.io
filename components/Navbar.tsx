@@ -13,16 +13,19 @@ const Navbar = () => {
       <nav className="fixed w-full h-24 font-mono text-2xl bg-white text-black dark:bg-black dark:text-white">
         <div className="flex justify-between items-center h-full w-full px-8 2xl:px-32 ">
           <Link href="/"><div className="mr-5 mb-1">Wintry</div></Link>
-          <button
-            className="flex md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            < Menu />
-          </button>
-          <ul className="hidden md:flex space-x-7 justify-end">
+          <div className="flex items-center">
+            <div className="mt-2 mr-3 md:hidden"><ToggleTheme/></div>
+            <button
+              className="flex md:hidden"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              < Menu />
+            </button>
+          </div>
+          <ul className="hidden md:flex justify-end items-center space-x-5">
             <li>
               <Link href="/">
-                <div className="hover:text-fallow dark:hover:text-light-bubblegum">Home</div>
+                <div className="hover:text-fallow dark:hover:text-light-bubblegum ">Home</div>
               </Link>
             </li>
             <li>
@@ -35,8 +38,8 @@ const Navbar = () => {
                 <div className="hover:text-fallow dark:hover:text-light-bubblegum">Contact</div>
               </Link>
             </li>
-            <li>
-              <div className="mt-1"><ToggleTheme/></div>
+            <li className="ml-3 mt-1">
+              <ToggleTheme/>
             </li>
           </ul>
         </div>
@@ -48,9 +51,9 @@ const Navbar = () => {
         />
       )}
       <div
-        className={`fixed top-24 right-0 w-48 h-auto bg-white dark:bg-black text-xl space-y-5 transform ${
-          isOpen ? 'translate-x-0' : 'translate-x-full'
-        } transition duration-300 ease-in-out z-20 md:hidden rounded`}
+        className={`fixed top-24 right-8 w-48 h-auto bg-white dark:bg-black text-center transform text-xl ${
+          isOpen ? 'opacity-100' : 'opacity-0'
+        } transition duration-300 ease-in-out z-20 md:hidden rounded border`}
       >
         <ul className="flex flex-col space-x-0 md:space-x-7">
           <li>
@@ -91,9 +94,6 @@ const Navbar = () => {
                 Contact
               </div>
             </Link>
-          </li> 
-          <li> 
-            <div className="mt-1"><ToggleTheme/></div> 
           </li> 
         </ul> 
       </div> 
