@@ -55,8 +55,8 @@ const Navbar = () => {
           isOpen ? 'opacity-100' : 'opacity-0'
         } transition duration-300 ease-in-out z-20 md:hidden rounded border`}
       >
-        <ul className="flex flex-col space-x-0 md:space-x-7">
-          <li>
+        <ul className="flex flex-col space-x-0 md:space-x-7 space-y-2">
+          <li className=" mt-1">
             <Link href="/">
               <div
                 className={`${
@@ -89,7 +89,7 @@ const Navbar = () => {
                   router.pathname === '/contact'
                     ? 'text-fallow dark:text-light-bubblegum'
                     : ''
-                } hover:text-fallow dark:hover:text-light-bubblegum`}
+                } hover:text-fallow dark:hover:text-light-bubblegum mb-1`}
               >
                 Contact
               </div>
