@@ -22,7 +22,7 @@ const Navbar = () => {
               < Menu />
             </button>
           </div>
-          <ul className="hidden md:flex justify-end items-center space-x-5">
+          <ul className="hidden md:flex justify-end items-center space-x-7">
             <li>
               <Link href="/">
                 <div className="hover:text-fallow dark:hover:text-light-bubblegum ">Home</div>
