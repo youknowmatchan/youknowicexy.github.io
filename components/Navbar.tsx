@@ -53,7 +53,7 @@ const Navbar = () => {
       <div
         className={`fixed top-24 right-8 w-48 h-auto bg-white dark:bg-black text-center transform text-xl ${
           isOpen ? 'opacity-100' : 'opacity-0'
-        } transition duration-300 ease-in-out z-20 md:hidden rounded border`}
+        } transition duration-300 ease-in-out z-20 md:hidden rounded-lg border`}
       >
         <ul className="flex flex-col space-x-0 md:space-x-7 space-y-2">
           <li className=" mt-1">
