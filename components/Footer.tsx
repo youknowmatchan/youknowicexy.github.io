@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Youtube from '@/public/svg/youtube.svg'
 import Instragram from '@/public/svg/instagram.svg'
-import Twitch from '@/public/svg/twitch.svg'
 import Twitter from '@/public/svg/twitter.svg'
 import Github from '@/public/svg/github.svg'
 
@@ -17,9 +16,6 @@ const Footer = () => {
                        <ul className="flex space-x-7">
                            <Link href="https://www.youtube.com/channel/UCo7Qxfiq0CRf_1Z-u-NCKqw" target="_blank">
                                <li><Youtube className="font-white hover:text-fallow dark:hover:text-light-bubblegum"/></li>
-                           </Link>
-                           <Link href="https://www.twitch.tv/youknowicexy" target="_blank">
-                               <li><Twitch className="font-white hover:text-fallow dark:hover:text-light-bubblegum"/></li>
                            </Link>
                            <Link href="https://www.instagram.com/youknowicexy" target="_blank">
                                <li><Instragram className="font-white hover:text-fallow dark:hover:text-light-bubblegum"/></li>
