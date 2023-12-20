@@ -13,7 +13,7 @@ export default function about() {
                     <hr className="mb-5"/>
                     <div>
                         <ul className=" text-lg list-disc pl-7">
-                            <li><span className="font-semibold">Assumption Samutprakarn (Middle School)</span>, 2020-Present , Sci-Math Program (GPAX 3.82)</li>
+                            <li><span className="font-semibold">Assumption Samutprakarn (Middle School)</span>, 2020-Present , Sci-Math Program (GPAX 3.86)</li>
                             
                         </ul>
                     </div>
