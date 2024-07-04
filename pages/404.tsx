@@ -7,11 +7,11 @@ export default function Custom404() {
                 <div>
                     <h1 className="text-center text-4xl code"><span className="text-light-link-blue">404 </span><span>This Page Doesn't Exist,</span></h1>
                     <h2 className="text-center text-3xl text-gray-dark dark:text-gray-light mb-10">you silly goose!</h2>
-                    <a href="/">
+                    <link href="/">
                         <div className="justify-center bg-transparent font-semibold py-2 px-4 border rounded">
                             <p className="text-xl text-black dark:text-white text-center">Return Home</p>
                         </div>
-                    </a>
+                    </link>
                 </div>
             </div>
         </>
