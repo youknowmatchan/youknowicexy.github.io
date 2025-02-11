@@ -13,8 +13,8 @@ export default function about() {
                     <hr className="mb-5"/>
                     <div>
                         <ul className=" text-lg list-disc pl-7">
-                            <li><span className="font-semibold">Assumption Samutprakarn (Middle School)</span>, 2020-Present , Sci-Math Program (GPAX 3.86)</li>
-                            
+                            <li><span className="font-semibold">Assumption Samutprakarn (Middle School)</span>, 2020-2024 , Sci-Math Program (GPAX 3.86)</li>
+                            <li><span className="font-semibold">Cambridge Highschool (High School)</span>, 2024-present</li>
                         </ul>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ export default function about() {
                         <ul className=" text-lg list-disc pl-12">
                             <li><span className="font-semibold">Thai</span> (Native)</li>
                             <li><span className="font-semibold">English</span> (IELTS 7.0)</li>
-                            <li><span className="font-semibold"> Chinese </span> (Beginner)</li>
+                            <li><span className="font-semibold"> Chinese </span> (HSK3)</li>
                         </ul>
                         <br />
                         <div className="text-xl mb-2 font-bold pl-7" >Techinical</div>
@@ -49,6 +49,8 @@ export default function about() {
                             <li><span className="font-semibold">Javascript</span></li>
                             <li><span className="font-semibold">Typescript</span></li>
                             <li><span className="font-semibold">Phyton</span></li>
+                            <li><span className="font-semibold">C++</span></li>
+                            <li><span className="font-semibold">C#</span></li>
                             <li><span className="font-semibold">Next.js</span></li>
                             <li><span className="font-semibold">React</span></li>
                         </ul>
