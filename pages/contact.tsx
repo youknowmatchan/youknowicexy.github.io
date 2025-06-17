@@ -15,13 +15,13 @@ export default function contact() {
                 </div>
 
                 <div className="max-w-lg w-full">
-                <a target="_blank" rel="norefferer" href=" https://instagram.com/youknowicexy/">
+                <a target="_blank" rel="norefferer" href=" https://instagram.com/youknowmatchan/">
                     <div className="flex justify-between dark:bg-dark-bubblegum dark:hover:text-light-bubblegum bg-coffee hover:bg-light-coffee transition-all duration-200 px-4 py-2 rounded-lg items-center">
                         <Instragram className="stroke-white"/>
                         <p className="font-semibold text-xl text-white">@youknowicexy</p>
                     </div>
                 </a>
-                <a target="_blank" rel="norefferer" href="https://twitter.com/youknowicexy/">
+                <a target="_blank" rel="norefferer" href="https://twitter.com/youknowmatchan/">
                     <div className="mt-2 flex justify-between dark:bg-dark-bubblegum dark:hover:text-light-bubblegum bg-coffee hover:bg-light-coffee transition-all duration-200 px-4 py-2 rounded-lg items-center">
                         <Twitter className="stroke-white"/>
                         <p className="font-semibold text-xl text-white">@youknowicexy</p>
